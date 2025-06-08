@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Webpage</title>
+    <style>
+        /* CSS Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #2e8b57;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            color: #333;
+        }
+
+        img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+            margin: 10px 0;
+        }
+
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #2e8b57;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #246d48;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HTML Content -->
+    <h1>Welcome to My Webpage</h1>
+
+    <p>This is a paragraph to demonstrate basic HTML. Below is an image of nature.</p>
+
+    <img src="a.jpg" alt="Nature Image">
+
+    <p>Visit <a href="https://www.wikipedia.org/" target="_blank">Wikipedia</a> to learn more.</p>
+
+    <button onclick="showAlert()">Click Me!</button>
+
+    <!-- JavaScript Function -->
+    <script>
+        function showAlert() {
+            alert("Hello! You clicked the button.");
+        }
+    </script>
+
+</body>
+</html>
